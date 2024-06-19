@@ -5,8 +5,7 @@ include(FetchContent)
 
 FetchContent_Declare(
     googlebenchmark
-    GIT_REPOSITORY https://github.com/google/benchmark.git
-    GIT_TAG origin/master
+    URL https://github.com/google/benchmark/archive/refs/tags/v1.8.4.zip
 )
 
 FetchContent_MakeAvailable(googlebenchmark)
